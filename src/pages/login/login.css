@@ -1,0 +1,76 @@
+/* *{
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+.page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    background-color: #2C043A;
+    color: #fff;
+    width: 20em;
+    height: 30em;
+    position: relative;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em rgb(154, 156, 156);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.rHead {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.lInput {
+    height: 20px;
+    width: 250px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.lButton {
+    width: 10em;
+    border: none;
+    padding: 10px;
+    background-color: #00ac1d;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+} 
+
+.lButton:disabled {
+    background-color: #2C043A;
+    cursor: not-allowed;
+}
+
+.rLine {
+    width: 250px;
+}
+
+.rLinkTo{
+    text-decoration: none;
+    color: #fff;
+}
+
+.fError {
+    color: red;
+}
+
+.spinnerInLogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
